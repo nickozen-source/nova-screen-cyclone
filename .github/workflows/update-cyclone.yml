@@ -1,0 +1,46 @@
+name: Mise à jour cyclone Nova Screen
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Saint-Barth = UTC-4
+    # 06h05 SBH = 10h05 UTC
+    # 12h05 SBH = 16h05 UTC
+    - cron: "5 10,16 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install requests
+
+      - name: Actualiser les données cycloniques
+        run: python update_cyclone.py
+
+      - name: Publier la mise à jour
+        run: |
+          git config user.name "Nova Screen Bot"
+          git config user.email "novascreen-bot@users.noreply.github.com"
+
+          git add index.html data/cyclone.json
+
+          if git diff --cached --quiet; then
+            echo "Aucun changement"
+          else
+            git commit -m "Mise à jour cyclone automatique"
+            git push
+          fi
