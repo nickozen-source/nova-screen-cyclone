@@ -196,15 +196,15 @@ windyInit(options, windyAPI => {
 
   // Reference and indicative 24 h projection
   const steps = [
-    {h:0,  lat:10.80, lon:-41.00},
-    {h:3,  lat:10.93, lon:-41.60},
-    {h:6,  lat:11.05, lon:-42.20},
-    {h:9,  lat:11.18, lon:-42.80},
-    {h:12, lat:11.30, lon:-43.40},
-    {h:15, lat:11.43, lon:-44.00},
-    {h:18, lat:11.55, lon:-44.60},
-    {h:21, lat:11.68, lon:-45.20},
-    {h:24, lat:11.80, lon:-45.80}
+    {h:0, lat:10.80, lon:-41.00},
+    {h:3, lat:10.90, lon:-41.60},
+    {h:6, lat:11.00, lon:-42.19},
+    {h:9, lat:11.10, lon:-42.79},
+    {h:12, lat:11.20, lon:-43.38},
+    {h:15, lat:11.30, lon:-43.98},
+    {h:18, lat:11.40, lon:-44.58},
+    {h:21, lat:11.49, lon:-45.18},
+    {h:24, lat:11.59, lon:-45.77}
   ];
 
   const stormMarker = L.marker([steps[0].lat,steps[0].lon],{icon:stormIcon,zIndexOffset:1000})
