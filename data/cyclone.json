@@ -1,14 +1,22 @@
 {
-  "system": "92L",
-  "status": "Invest",
-  "latitude": 10.8,
-  "longitude": -41.0,
-  "development_48h": 80,
-  "development_7d": 80,
-  "movement": "O / ONO",
-  "movement_bearing_deg": 280,
-  "speed_kmh": 22,
-  "local_vigilance": "none",
-  "local_vigilance_label": "AUCUNE VIGILANCE CYCLONIQUE EN COURS",
-  "generated_at": "2026-08-14T13:04:02-04:00"
+  "updated_at": "2026-08-14T13:38:00-04:00",
+  "territory": "Saint-Barthélemy",
+  "alert_level": "VERT",
+  "threat": "AUCUNE",
+  "systems": [
+    {
+      "id": "92L",
+      "lat": 11.4,
+      "lon": -50.4,
+      "risk_48h": 20,
+      "risk_7d": 20
+    },
+    {
+      "id": "94L",
+      "lat": 10.8,
+      "lon": -33.2,
+      "risk_48h": 30,
+      "risk_7d": 50
+    }
+  ]
 }
