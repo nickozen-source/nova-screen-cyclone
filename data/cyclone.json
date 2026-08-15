@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T14:13:50-04:00",
+  "updated_at": "2026-08-15T06:30:42-04:00",
   "territory": "Saint-Barthélemy",
   "alert_level": "VERT",
   "threat": "AUCUNE",
@@ -8,8 +8,8 @@
       "id": "94L",
       "lat": null,
       "lon": null,
-      "risk_48h": 40,
-      "risk_7d": 30
+      "risk_48h": 20,
+      "risk_7d": 20
     }
   ],
   "source": "https://www.meteo-tropicale.fr/dashboard/?PT=459",
