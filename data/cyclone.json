@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T12:53:37-04:00",
+  "updated_at": "2026-08-27T16:17:33-04:00",
   "territory": "Saint-Barthélemy",
   "alert_level": "VERT",
   "threat": "AUCUNE",
@@ -9,6 +9,6 @@
     "sxmcyclone": "https://www.sxmcyclone.com/",
     "nhc": "https://www.nhc.noaa.gov/"
   },
-  "status": "confirmed_no_systems",
+  "status": "no_system_detected",
   "fetch_errors": []
 }
