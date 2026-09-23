@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T15:41:55-04:00",
+  "updated_at": "2026-09-23T10:52:11-04:00",
   "territory": "Saint-Barthélemy",
   "alert_level": "VERT",
   "threat": "AUCUNE",
@@ -9,8 +9,6 @@
     "sxmcyclone": "https://www.sxmcyclone.com/",
     "nhc": "https://www.nhc.noaa.gov/"
   },
-  "status": "no_system_detected",
-  "fetch_errors": [
-    "SXM: HTTPSConnectionPool(host='www.sxmcyclone.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sxmcyclone.com', port=443) at 0x7efc8bf9caa0>, 'Connection to www.sxmcyclone.com timed out. (connect timeout=35)'))"
-  ]
+  "status": "confirmed_no_systems",
+  "fetch_errors": []
 }
