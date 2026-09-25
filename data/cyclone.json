@@ -1,22 +1,14 @@
 {
-  "updated_at": "2026-09-24T15:56:48-04:00",
+  "updated_at": "2026-09-25T11:08:00-04:00",
   "territory": "Saint-Barthélemy",
   "alert_level": "VERT",
   "threat": "AUCUNE",
-  "systems": [
-    {
-      "id": "90L",
-      "lat": 12.3,
-      "lon": -21.1,
-      "risk_48h": null,
-      "risk_7d": null
-    }
-  ],
+  "systems": [],
   "sources": {
     "meteo_tropicale": "https://www.meteo-tropicale.fr/",
     "sxmcyclone": "https://www.sxmcyclone.com/",
     "nhc": "https://www.nhc.noaa.gov/"
   },
-  "status": "systems_found",
+  "status": "no_system_detected",
   "fetch_errors": []
 }
