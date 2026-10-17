@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T09:36:08-04:00",
+  "updated_at": "2026-10-17T14:22:47-04:00",
   "territory": "Saint-Barthélemy",
   "alert_level": "VERT",
   "threat": "AUCUNE",
@@ -11,6 +11,6 @@
   },
   "status": "confirmed_no_systems",
   "fetch_errors": [
-    "MT: HTTPSConnectionPool(host='www.meteo-tropicale.fr', port=443): Read timed out. (read timeout=35)"
+    "MT: HTTPSConnectionPool(host='www.meteo-tropicale.fr', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.meteo-tropicale.fr', port=443) at 0x7f4ab35eb770>, 'Connection to www.meteo-tropicale.fr timed out. (connect timeout=35)'))"
   ]
 }
