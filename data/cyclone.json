@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-22T11:01:41-04:00",
+  "updated_at": "2026-10-22T15:57:19-04:00",
   "territory": "Saint-Barthélemy",
   "alert_level": "VERT",
   "threat": "AUCUNE",
   "systems": [
     {
       "id": "SYSTÈME 1",
-      "lat": 29.51874809950693,
-      "lon": -53.293594310456236,
+      "lat": 30.264589260062714,
+      "lon": -52.71910874781449,
       "risk_48h": 10,
       "risk_7d": 10
     }
